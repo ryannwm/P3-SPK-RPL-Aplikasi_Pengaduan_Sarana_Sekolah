@@ -12,8 +12,9 @@ class Siswa extends Model
     public $incrementing = true;
     protected $fillable = [
         'user_id',
-        'nis',
-        'kelas'
+        'nisn',
+        'kelas', 
+        'jurusan'
     ];
     protected $casts = [
         'created_at' => 'datetime',
